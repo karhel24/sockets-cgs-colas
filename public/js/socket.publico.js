@@ -22,7 +22,7 @@ socket.on('connect', function() {
 socket.on('disconnect', function() {
     console.log('Se perdió la conexión con el servidor');
 
-    //TODO: Mostrar mensaje en el html cuando se desconecta
+
 });
 
 socket.on('estadoActual', function(resp) {
